@@ -1,0 +1,12 @@
+applications:
+- name: devniel-api
+  command: node server.js
+  path: .
+  memory: 512M
+  disk_quota: 2048M
+  env:
+    NODE_ENV: development
+    BRAPH_ID: 
+    BRAPH_CLIENT_ID:
+    BRAPH_CLIENT_SECRET:
+    BRAPH_API_URL:
